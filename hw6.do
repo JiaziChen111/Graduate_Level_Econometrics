@@ -3,7 +3,7 @@ clear
 set more 1
 capture log close
 /* open a log file */
-cd  C:\Users\My\Desktop\Econometrics\HW6\comp_excer
+cd  C:\Users\My\Desktop\Econometrics\HW6
 
 set more off
 clear
@@ -46,6 +46,7 @@ outreg using mass_test_scores, bdec(4) merge
 
 /*--------------------------------Computational Excercises Via Wooldridge--------------------------------*/
 /*--------------------------- C8.6---------------------------------------------------*/
+cd C:\Users\My\Desktop\Econometrics\HW6\comp_excer
 use crime1.dta 
 gen arr86 = 0
 replace arr86 = 1 if narr86 > 0
